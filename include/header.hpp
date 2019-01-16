@@ -40,20 +40,20 @@ public:
 	template <class... Args>
 	void push_emplace(Args&&... value)
 	{
-		for (auto p : std::initializer_list<T>{ value... })
+		for (auto t : std::initializer_list<T>{ value... })
 		{
 			Node<T> *temp = new Node<T>;
 			temp->next = h;
-			temp->x = p;
+			temp->x = t;
 			h = move(temp);
 		}
 	}
 
 	void pop()
 	{
-		Node <T> *pv = h;
+		Node <T> *t = h;
 		h = h->next;
-		delete pv;
+		delete t;
 	}
 
 	T& head()
