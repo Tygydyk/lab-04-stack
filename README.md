@@ -1,3 +1,4 @@
+https://travis-ci.org/Tygydyk/lab-04-stack.svg?branch=master
 # Лабораторная работа №4
 
 ## Задание 1
@@ -39,3 +40,4 @@ public:
 
 ## Рекомендации
 💡 Воспользуйтесть [**type traits**](https://en.cppreference.com/w/cpp/types#Type_traits_.28since_C.2B.2B11.29), а именно `is_move_constructible`, `is_move_assignable` и пр.
+
