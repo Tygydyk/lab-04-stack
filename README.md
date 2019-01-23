@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Tygydyk/lab-04-stack.svg?branch=master)](https://travis-ci.org/Tygydyk/lab-04-stack)
 https://travis-ci.org/Tygydyk/lab-04-stack.svg?branch=master
 # Лабораторная работа №4
 
